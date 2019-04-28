@@ -1,7 +1,7 @@
 class Test{
 
  public static void main(String[] args){
-         int i=500;
+         int i=1000;
 	 System.out.println("Hello World");
 
  }
