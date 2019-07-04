@@ -1,1 +1,7 @@
-this is file 2 hello
+public class file2{
+
+   public static void main(String[] args){
+     
+	   System.out.println("hello ");
+   }
+}
