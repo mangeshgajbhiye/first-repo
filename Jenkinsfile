@@ -1,6 +1,11 @@
 pipeline {
 
-      agent { node { label 'master' }}
+      agent { 
+            node { 
+                  label 'master' 
+                  customWorkspace '/home/mangesh/Software/Work'
+            }
+      }
       
       stages {
          stage('Dev1') {
